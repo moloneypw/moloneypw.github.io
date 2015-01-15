@@ -1,0 +1,367 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+/* line 20, ../sass/custom.scss */
+.navbar-toggle {
+  border-color: #3E606F;
+  margin: 21.5795px 20px 25.5795px;
+}
+/* line 23, ../sass/custom.scss */
+.navbar-toggle .icon-bar {
+  background-color: #FCFFF5;
+}
+
+/* line 28, ../sass/custom.scss */
+.home {
+  width: 100%;
+  padding-top: 150px;
+  background: #3E606F;
+}
+/* line 32, ../sass/custom.scss */
+.home .avatar {
+  padding: 3% 0 3% 0;
+  display: block;
+  margin: auto;
+}
+/* line 38, ../sass/custom.scss */
+.home .introduction {
+  font-size: 3.5em;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #FCFFF5;
+}
+/* line 44, ../sass/custom.scss */
+.home .introduction .intro-name {
+  font-family: 'Lobster', cursive;
+  font-size: 1.4em;
+  font: bold;
+}
+/* line 49, ../sass/custom.scss */
+.home .introduction a.learn-about {
+  padding: 3px;
+  font-size: .5em;
+  color: #D1DBBD;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+/* line 56, ../sass/custom.scss */
+.home .introduction a.learn-about:hover {
+  border-radius: 10px;
+  border-bottom: 0px;
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #3E606F;
+}
+/* line 64, ../sass/custom.scss */
+.home .location {
+  color: #FCFFF5;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 1.6em;
+  padding-bottom: 3%;
+}
+/* line 71, ../sass/custom.scss */
+.home .location .glyphicon-map-marker {
+  color: red;
+}
+
+/* CSS for Section Headers and The Lines */
+/* line 79, ../sass/custom.scss */
+.container {
+  padding-top: 5%;
+  width: 100%;
+}
+/* line 83, ../sass/custom.scss */
+.container .lines {
+  background: #3E606F;
+  border-top: 2px solid #FCFFF5;
+  border-bottom: 2px solid #FCFFF5;
+  height: 10px;
+  top: 50px;
+}
+@media (max-width: 780px) {
+  /* line 83, ../sass/custom.scss */
+  .container .lines {
+    visibility: hidden;
+  }
+}
+/* line 93, ../sass/custom.scss */
+.container .section-header {
+  font: bold 7em "Lobster" cursive;
+  color: #3E606F;
+  display: block;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+/* line 105, ../sass/custom.scss */
+#about .about-row {
+  padding-top: 4%;
+  background-color: #E0E3DA;
+}
+/* line 108, ../sass/custom.scss */
+#about .about-row .about-text {
+  color: #3E606F;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+/* line 113, ../sass/custom.scss */
+#about .about-row .about-text b {
+  font-size: 1.1em;
+  font-weight: 900;
+}
+/* line 117, ../sass/custom.scss */
+#about .about-row .about-text a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
+/* line 125, ../sass/custom.scss */
+#resume .resume-text {
+  padding-top: 3%;
+}
+/* line 128, ../sass/custom.scss */
+#resume .resume-header {
+  font-size: 4em;
+  font-weight: 700;
+  text-align: center;
+}
+/* line 133, ../sass/custom.scss */
+#resume .glyphicon {
+  padding-left: 5%;
+  font-size: 1.5em;
+  color: #FCFFF5;
+}
+/* line 138, ../sass/custom.scss */
+#resume .job {
+  position: relative;
+}
+/* line 140, ../sass/custom.scss */
+#resume .job h3, #resume .job h4 {
+  float: left;
+  font-style: bold;
+}
+/* line 144, ../sass/custom.scss */
+#resume .job .date {
+  float: right;
+  position: relative;
+  margin-top: 3%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 153, ../sass/custom.scss */
+#resume .workplace {
+  margin-top: 0;
+  font-style: italic;
+}
+/* line 157, ../sass/custom.scss */
+#resume .school-list {
+  list-style: none;
+  width: auto;
+}
+/* line 160, ../sass/custom.scss */
+#resume .school-list li {
+  height: 150px;
+  width: 50%;
+  padding: 2%;
+}
+/* line 164, ../sass/custom.scss */
+#resume .school-list li .img-responsive {
+  height: 100%;
+}
+
+/* line 171, ../sass/custom.scss */
+.navbar-fixed-top {
+  min-height: 80px;
+  background-color: #3E606F;
+  border-bottom: 4px solid #3E606F;
+}
+
+/* line 179, ../sass/custom.scss */
+.navbar-brand {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding-left: 10px;
+  color: #FCFFF5;
+  font-family: "Lobster" cursive;
+  padding: 28px 20px 32px;
+}
+
+/* line 190, ../sass/custom.scss */
+.navbar-brand:hover {
+  color: #FCFFF5;
+  border-bottom: 1px dashed #FCFFF5;
+}
+
+/* line 195, ../sass/custom.scss */
+.navbar-header {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* line 202, ../sass/custom.scss */
+.nav > li > a {
+  padding-top: 28px;
+  padding-bottom: 32px;
+  font-size: 20px;
+  line-height: 1;
+  color: #FCFFF5;
+  text-align: center;
+}
+/* line 210, ../sass/custom.scss */
+.nav > li > a:hover {
+  background-color: #D1DBBD;
+  color: #3E606F;
+}
+
+/* line 216, ../sass/custom.scss */
+.navbar {
+  width: 100%;
+}
+@media (min-width: 1065px) {
+  /* line 219, ../sass/custom.scss */
+  .navbar .navbar-header, .navbar .navbar-collapse {
+    width: 50%;
+    position: absolute;
+    text-align: center;
+  }
+  /* line 224, ../sass/custom.scss */
+  .navbar .navbar-collapse {
+    left: 50%;
+  }
+}
+
+/* line 236, ../sass/custom.scss */
+#connect {
+  padding-top: 10%;
+  display: block;
+}
+/* line 239, ../sass/custom.scss */
+#connect .container {
+  padding-top: 10px;
+  display: block;
+  width: 66%;
+  position: relative;
+}
+/* line 244, ../sass/custom.scss */
+#connect .container .email {
+  float: right;
+  width: 66%;
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+}
+/* line 250, ../sass/custom.scss */
+#connect .container .email button {
+  text-align: center;
+}
+/* line 254, ../sass/custom.scss */
+#connect .container .connect-list {
+  width: 33%;
+  position: relative;
+  float: right;
+}
+/* line 258, ../sass/custom.scss */
+#connect .container .connect-list ul {
+  text-align: center;
+}
+/* line 260, ../sass/custom.scss */
+#connect .container .connect-list ul li {
+  padding: 5px;
+  display: inline-block;
+  list-style: none;
+}
+
+/*******************/
+/* line 272, ../sass/custom.scss */
+.technologies {
+  -webkit-box-pack: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  width: 95%;
+}
+/* line 280, ../sass/custom.scss */
+.technologies li {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 3px #CCCCCC;
+  height: 120px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 120px;
+}
+/* line 290, ../sass/custom.scss */
+.technologies li:hover .overlay {
+  background: #FFFFFF;
+  opacity: 0.9;
+  border: 3px ridge;
+}
+/* line 295, ../sass/custom.scss */
+.technologies li:hover .button {
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+  transform: scale(1);
+  animation-delay: inherit;
+  animation: scale .5s infinite;
+  cursor: pointer;
+  text-align: center;
+  top: 10%;
+}
+/* line 307, ../sass/custom.scss */
+.technologies .overlay {
+  width: 100%;
+  height: 100%;
+  margin: -120px 0 0 0;
+  background: #000;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+}
+/* line 315, ../sass/custom.scss */
+.technologies .button {
+  width: 100%;
+  height: 100%;
+  left: -10px;
+  margin: -120px 0 0 0;
+  opacity: 0;
+  border-radius: 50%;
+  transition: all .4s ease;
+}
+/* line 323, ../sass/custom.scss */
+.technologies .button h4 {
+  margin: 2% s 0 0 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 1.2em;
+  color: #FCFFF5;
+}
+/* line 330, ../sass/custom.scss */
+.technologies .button p {
+  font-size: .9em;
+  top: 5px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+/* line 337, ../sass/custom.scss */
+.technologies .button a {
+  text-decoration: none;
+  top: 15px;
+  position: relative;
+  color: #424242;
+  border-bottom: 1px dashed;
+}
+/* line 346, ../sass/custom.scss */
+.technologies .technology-image {
+  max-width: 100%;
+  max-height: 100%;
+}

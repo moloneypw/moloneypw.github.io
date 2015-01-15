@@ -1,0 +1,351 @@
+// DIMENSIONS
+$navbarHeight: 80px;
+$elementHeightBrand: 20px;
+$elementHeightNav: 20px;
+$toggleHeight: 32.841px;
+
+// COLORS
+$mainPurple: #3E606F;
+$textColor: #FCFFF5;
+$lightBlack: #424242;
+$sectionHeaderColor: #3E606F;
+$hoverLinkColor: #3E606F;
+$hoverBackgroundColor: #D1DBBD;
+$linkColor: #D1DBBD;
+$aboutTextColor: #3E606F;
+
+// IMPORTS
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+.navbar-toggle{
+  border-color: $mainPurple;
+  margin: (($navbarHeight - $toggleHeight) / 2 - 2) 20px (($navbarHeight - $toggleHeight) / 2 + 2);
+  .icon-bar{
+    background-color: $textColor;
+  }
+}
+
+.home{
+  width: 100%;
+  padding-top: 150px;
+  background: $mainPurple;
+  .avatar{
+     padding: 3% 0 3% 0;
+     display:block;
+     margin:auto;
+       
+   }
+  .introduction{
+    font-size: 3.5em;
+    display:block;
+    margin:auto;
+    text-align: center;
+    color: $textColor;
+    .intro-name{
+      font-family: 'Lobster', cursive;
+      font-size: 1.4em;
+      font: bold;
+    }
+    a.learn-about{
+      padding: 3px;
+      font-size: .5em;
+      color: $linkColor;
+      text-decoration: none;
+      border-bottom: 1px dashed;
+    }
+    a.learn-about:hover{
+      border-radius: 10px;
+      border-bottom:   0px;
+      text-decoration: none;
+      background: #FFFFFF;
+      color: $mainPurple;
+    }
+  }
+  .location{
+    color: $textColor;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 1.6em;
+    padding-bottom: 3%;
+    .glyphicon-map-marker{
+      color: red;
+    }
+  }
+}
+
+
+/* CSS for Section Headers and The Lines */
+.container {
+  padding-top: 5%;
+  width: 100%;
+
+  .lines {
+    background: $mainPurple;
+    border-top: 2px solid $textColor;
+    border-bottom: 2px solid $textColor;
+    height: 10px;
+    top: 50px;
+    @media (max-width: 780px){
+      visibility: hidden;
+    }
+  }
+  .section-header{
+      font: bold 7em "Lobster" cursive;
+      color: $sectionHeaderColor;
+      display: block;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      z-index: 5;
+    }
+}
+
+#about{
+  .about-row{
+    padding-top: 4%;
+    background-color: #E0E3DA; //offwhite
+    .about-text{
+      color: $aboutTextColor;
+      font-size: 1.2em;
+      font-weight: 700;      
+    }
+    .about-text b{
+      font-size: 1.1em;
+      font-weight: 900;
+    }
+    .about-text a{
+      text-decoration: none;
+      border-bottom: 1px dashed;
+    }
+  }
+}
+
+#resume{
+  .resume-text{
+    padding-top: 3%;
+  }
+  .resume-header{
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+  }
+  .glyphicon{
+    padding-left: 5%;
+    font-size: 1.5em;
+    color: $textColor;
+  }
+  .job{
+    position: relative;
+    h3, h4{
+      float: left;
+      font-style: bold;
+    }
+    .date{
+      float: right;
+      position: relative;
+      margin-top: 3%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+  .workplace{
+    margin-top: 0;
+    font-style: italic;
+  }
+  .school-list{
+    list-style: none;
+    width: auto;
+    li{
+      height: 150px;
+      width: 50%;
+      padding: 2%;
+      .img-responsive{
+        height: 100%;
+      }
+    }
+  }
+}
+
+.navbar-fixed-top {
+   min-height: $navbarHeight;;
+   //background-color: #FFFFFF;
+   background-color: $mainPurple;
+   
+   border-bottom: 4px solid $mainPurple;
+ }
+
+.navbar-brand{
+  font-size: 30px;
+  text-align: center;
+  margin:auto;
+  display: block;
+  padding-left: 10px;
+  color: $textColor;
+  font-family: "Lobster" cursive;
+  padding: (($navbarHeight - $elementHeightBrand) / 2 - 2) 20px (($navbarHeight - $elementHeightBrand) / 2 + 2);
+}
+
+.navbar-brand:hover{
+  color: $textColor;
+  border-bottom: 1px dashed $textColor; 
+  }
+
+.navbar-header {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.nav > li > {
+  a{
+    padding-top: (($navbarHeight - $elementHeightNav) / 2 - 2);
+    padding-bottom: (($navbarHeight - $elementHeightNav) / 2 + 2);
+    font-size: 20px;
+    line-height: 1;
+    color: $textColor;
+    text-align: center;
+  }
+  a:hover{
+    background-color: $hoverBackgroundColor;
+    color: $hoverLinkColor;
+  }
+}
+
+.navbar {
+  width: 100%;
+  @media (min-width: 1065px){
+    .navbar-header, .navbar-collapse{
+      width: 50%;
+      position: absolute;
+      text-align:center;
+    }
+    .navbar-collapse{
+      left: 50%;
+    }
+  }
+}
+
+#projects{
+  .container{
+    //height: 1000px;
+  }
+}
+
+#connect{
+  padding-top: 10%;
+  display: block;
+  .container{
+    padding-top: 10px;
+    display: block;
+    width: 66%;
+    position: relative;
+    .email{
+      float: right;
+      width: 66%;
+      overflow: hidden;      
+      position: absolute;
+      height:100%;
+      button{
+        text-align: center;
+      }
+    }
+    .connect-list{
+      width: 33%;
+      position: relative;
+      float: right;
+      ul{
+        text-align: center;
+        li{
+          padding: 5px;
+          display:inline-block;
+          list-style: none;
+        }
+      }      
+    }
+  }
+}
+
+
+/*******************/
+.technologies{
+  -webkit-box-pack: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  width: 95%;
+  li {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px #CCCCCC;
+    height: 120px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 120px;
+    //transition: all 10.3s cubic-bezier(0.25, 0.1, 0.25, 1) 10s;
+  }
+  li:hover .overlay{
+    background: #FFFFFF;
+    opacity:0.9;
+    border: 3px ridge;
+  }
+  li:hover .button {
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    transform:scale(1);
+    animation-delay: inherit;
+    animation:scale .5s infinite;
+    cursor: pointer;
+    text-align: center;
+    top: 10%;
+
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    margin: -120px 0 0 0;
+    background: #000;
+    opacity:0;
+    transition: all .5s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  }
+  .button {
+    width: 100%;
+    height: 100%;
+    left: -10px;
+    margin: -120px 0 0 0;
+    opacity: 0;
+    border-radius: 50%;
+    transition: all .4s ease;
+    h4{
+      margin: 2%s 0 0 0 ;
+      padding: 0;
+      font-weight: 900;
+      font-size: 1.2em;
+      color: $textColor;
+    }
+    p{
+      font-size: .9em;
+      top: 5px;
+      position: relative;
+      padding: 0;
+      margin: 0;
+    }
+    a{
+      text-decoration: none;
+      top: 15px;
+      position: relative;
+      color: $lightBlack;
+      border-bottom: 1px dashed;
+    }
+
+  }
+  .technology-image{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+}

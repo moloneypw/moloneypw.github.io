@@ -1,1 +1,506 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patrick Moloney | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Stylesheets -->
+  <link rel="stylesheet" href="stylesheets\styles.css" type="text/css">
+  <link rel="stylesheet" href="stylesheets\custom.css" type="text/css">
+  <link rel="stylesheet" href="stylesheets\projects.css" type="text/css">
+  <link rel="stylesheet" href="stylesheets\jquery.FlowupLabels.css" type="    text/css">
+  
+  <!-- Javascript -->
+  <script src="assets/js/jquery-2.1.3.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/jquery.slidorion.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/jquery.FlowupLabels.js"></script>
+
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class=" navbar navbar-fixed-top" role="navigation">
+
+      <!-- Header for mobile sites -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle col-sm-6"
+                data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"><b>P</b>atrick <b>W</b>. <b>M</b>oloney</a>
+      </div>
+      <!-- End Mobile Header -->
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+      </div>
+  </nav>  
+
+  <!-- HOME -->
+  <div class="container home" id="home">
+    <span class="introduction">Hello everyone.<br />My name is
+      <span class="intro-name">Patrick Moloney</span>.<br>
+      <a href="#about" class="learn-about" data-target="about">learn more about me</a>
+    </span>
+    <img class="avatar img-circle" src="assets/images/avatar.gif" />
+    <span class="location">I am a passionate programmer living in the Hartford area.
+      <a href="https://www.google.com/maps/place/Hartford,+CT/data=!4m2!3m1!1s0x89e65311f21151a5:0xcc8e4aa8e97d5999?sa=X&ei=_cypVPCpMoW0oQSli4HgAQ&ved=0CJkBEPIBMA0">
+        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></a>
+    </span>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="container about" id="about">
+    <div class="row">
+      <span class="lines col-sm-3"></span>
+      <span class="section-header col-xs-12 col-sm-6">About Me</span>
+      <span class="lines col-sm-3"></span>
+    </div>
+    <div class="row col-sm-8 col-sm-push-2  col-xs-12 about-row">
+      <p  class="about-text">
+        Hey everyone, thanks for visiting my portfolio.  My name is <b>Patrick Moloney</b>.
+        I'm an aspiring software developer. I enjoy all the facets of the development stack.
+        <br/><br/>
+        Currently I'm increasing my knowledge on the web development stack.
+        Mainly HTML, CSS, Javascript and accomodating frameworks such as jQuery, AngularJS, Bootstrap, and SASS/Compass.
+        <br/><br/>
+        I love to learn new technologies and I am always trying to increase my knowledge in any subject that interests me.
+        <br/><br/>
+        I recently finished my contract working at
+        <a href="http://www.nu.com/" target="_blank">Northeast Utilites</a>
+        where I was a <b>Windows 7 Deployment Specialist</b>.
+        During that project my team and I migrated over 5000 workstations to Windows 7!
+      </p>
+    </div>
+  </div>
+
+  <!-- RESUME-->
+  <div class="container resume" id="resume">
+    <div class="row">
+      <span class="lines col-sm-3"></span>
+      <span class="section-header col-xs-12 col-sm-6">Resume</span>
+      <span class="lines col-sm-3"></span>
+    </div>
+    <div class="resume-text col-sm-8 col-sm-push-2">
+
+      <span class="resume-header">Objective</span>
+      <span class="glyphicon glyphicon-chevron-up"></span>
+      <div class="toggle-container">
+        <p class="objective-content">
+          I am currently looking for a junior level postion as a software engineer where I will have the opportunity of using my practical knowledge of programming as well as
+          increase my skills on the emerging trends and gain the experience of working with a development teams.
+        </p>
+      </div>
+      <br /> <!-- break used so contianers don't collapse -->
+
+      <span class="resume-header">Experience</span>
+      <span class="glyphicon glyphicon-chevron-up"></span>
+      <div class="toggle-container">
+        <div class="job-container">
+          <div class="job row">
+            <h3>Windows 7 Deployment Technician</h3>
+            <span class="date">May 2013 &ndash; December 2014</span>
+            <br/>
+          </div>
+          <h4 class="workplace">Northeast Utilities &ndash; The Ergonomic Group</h4>
+          <p class="job-overview">
+            <u><em>Overview</em></u>: Migrate 5000+ machines located at main office plus surrounding work centers to Windows 7.
+          </p>
+          <ul>
+            <li>Excellent communication, documentation and prioritization skills.</li>
+            <li>Hardware / Software troubleshooting. </li>
+            <li>Assist users with pre-deployment preparations, deploy OS overnight, then on the following day install software,
+                restore data, and troubleshoot any problems.</li>
+            <li>Customer service skills: friendly, courteous, patient, flexible.</li>
+            <li>Install / configure peripherals: scanner, printer, label printer, multiple displays, and wireless devices.</li>
+            <li>Utilize SCCM and USMT for rollout.</li>
+            <li>Develop scripts to automate processes for improved performance</li>
+            <li>Daily team meetings to discuss the prior days’ work and what to come.</li>
+          </ul>
+        </div>
+        <div class="job-container">
+          <div class="job row">
+            <h3>Hardware Support Intern</h3>
+            <span class="date">May 2012 &ndash; September 2012</span>
+            <br/>
+          </div>
+          <h4 class="workplace">WorldWide TechServices</h4>
+          <p class="job-overview">
+            <u><em>Overview</em></u>: Assisting internal IT Staff with providing computer hardware, software, and technical support to various departments within the company.
+          </p>
+          <ul>
+            <li>Identify, research, and resolve technical problems.</li>
+            <li>Respond to telephone calls, instant messages, email, and tickets for support.</li>
+            <li>Document, monitor, and track all problems to ensure a timely resolution</li>
+            <li>Document, monitor, and track all company assets.</li>
+            <li>Install and configure workstations based on company needs and requirements. </li>
+            <li>Repair computers infected with spyware, malware, viruses, and/or Trojans.</li>
+          </ul>
+        </div>
+      </div>
+      <br /> <!-- break used so contianers don't collapse -->
+
+      <span class="resume-header">Education</span>
+      <span class="glyphicon glyphicon-chevron-up"></span>
+      <div class="toggle-container">
+        <ul class="school-list">
+          <li>            
+              <a class="school-logo" href="http://miamioh.edu/"  
+                 target="_blank">
+                <img class="img-responsive" src="assets/images/miami.jpg"/>
+              </a>            
+          </li>
+          <li>
+              <a class="school-logo" href="http://www.uml.edu/" target="_blank"><img class="img-responsive" src="assets/images/ulowell.png"><img></a>
+          </li>
+          <li>
+              <a class="school-logo" href="http://www.fitchburgstate.edu/" target="_blank"><img class="img-responsive" src="assets/images/fitchburg.jpg"><img></a>
+          </li>
+        </ul>
+      </div>
+      <br /> <!-- break used so contianers don't collapse -->
+
+      <span class="resume-header">Organizations</span>
+      <span class="glyphicon glyphicon-chevron-up"></span>
+      <div class="toggle-container">
+        <a  href="http://sigmapi.org/" target="_blank"><img class="img-responsive" src="assets/images/sigmapi.png"><img></a>
+      </div>
+      <br /> <!-- break used so contianers don't collapse -->
+
+      <span class="resume-header">Skills</span>
+      <span class="glyphicon glyphicon-chevron-up"></span>
+      <div class="toggle-container">
+        <ul class="technologies">
+          <li>
+            <img class="technology-image" src="assets/images/icons/unix.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Unix</h4>
+              <p class="description">Operating System</p>
+              <a href="http://www.unix.org/" target="_blank">unix.org</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/windows.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Windows XP/7</h4>
+              <p class="description">Operating System</p>
+              <a href="http://windows.microsoft.com/en-us/windows/home" target="_blank">windows.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/android.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Android</h4>
+              <p class="description">Google OS</p>
+              <a href="http://www.android.com/" target="_blank">android.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/angular.jpg" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>AngularJS</h4>
+              <p class="description">Javascript MVW Framework</p>
+              <a href="https://angularjs.org/" target="_blank">angularjs.org</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/atom.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Atom</h4>
+              <p class="description">Google Text Editor</p>
+              <a href="https://atom.io/" target="_blank">atom.io</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/bootstrap.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Bootstrap</h4>
+              <p class="description">CSS Framework</p>
+              <a href="http://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/c.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>C</h4>
+              <p class="description">General purpose programming language</p>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/cplusplus.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>C++</h4>
+              <p class="description">OO programming language</p>
+              <a href="http://www.cplusplus.com/" target="_blank">cplusplus.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/csharp.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>C#</h4>
+              <p class="description">MS developed programming language</p>
+              <!-- <a href="http://msdn.microsoft.com/en-us/library/67ef8sbd.aspx" target="_blank">microsoft.com</a> -->
+            </div>
+          </li>
+          <!-- START HERE -->
+          <li>
+            <img class="technology-image" src="assets/images/icons/css.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>CSS</h4>
+              <p class="description">Cascading Style Sheets</p>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/dotnet.jpg" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>.NET</h4>
+              <p class="description">MS programming framework</p>
+              <a href="http://www.microsoft.com/net" target="_blank">microsoft.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/eclipse.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Eclipse</h4>
+              <p class="description">integrated development environment</p>
+              <a href="https://eclipse.org/" target="_blank">eclipse.org</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/github.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>GitHub</h4>
+              <p class="description">Web based code repository</p>
+              <a href="https://github.com/" target="_blank">github.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/html.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>HTML</h4>
+              <p class="description">Web markup language</p>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/java.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>JAVA</h4>
+              <p class="description">OO programming language</p>
+              <a href="https://www.oracle.com/java/index.html" target="_blank">oracle.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/javascript.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Javascript</h4>
+              <p class="description">Dynamic web based language</p>
+
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/jquery.gif" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>jQuery</h4>
+              <p class="description">Javascript library</p>
+              <a href="http://jquery.com/" target="_blank">jquery.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/mvc.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>MVC</h4>
+              <p class="description">Model View Controller framework</p>
+
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/netbeans.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Netbeans</h4>
+              <p class="description">Integrated Development Environment</p>
+              <a href="https://netbeans.org/" target="_blank">netbeans.org</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/office.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>MS Office</h4>
+              <p class="description">Microsoft Office suite</p>
+              <a href="https://products.office.com/en-US/" target="_blank">microsoft.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/powershell.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Powershell</h4>
+              <p class="description">Windows scripting language</p>
+              <a href="http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx" target="_blank">microsoft.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/responsive.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>Responsive</h4>
+              <p class="description">cross device web design</p>
+              <a href="http://sass-lang.com/" target="_blank">sass-lang.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/sass.jpg" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>SASS</h4>
+              <p class="description">CSS extension language</p>
+              <a href="http://sass-lang.com/" target="_blank">sass-lang.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/sccm.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>SCCM</h4>
+              <p class="description">System Center Config Manager</p>
+              <a href="http://www.microsoft.com/en-us/server-cloud/products/system-center-2012-r2-configuration-manager/" target="_blank">microsoft.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/sql.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>MS SQL</h4>
+              <p class="description">SQL Server database</p>
+              <a href="http://www.microsoft.com/en-us/server-cloud/products/sql-server/" target="_blank">microsoft.com</a>
+            </div>
+          </li>
+          <li>
+            <img class="technology-image" src="assets/images/icons/xml.png" />
+            <div class="overlay"></div>
+            <div class="button">
+              <h4>XML</h4>
+              <p class="description">markup language</p>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="container projects" id="projects">
+    <div class="row">
+      <span class="lines col-sm-3"></span>
+      <span class="section-header col-xs-12 col-sm-6">Projects</span>
+      <span class="lines col-sm-3"></span>
+    </div>
+    <div class="container">
+      <div id="slidorion" class="slidorion">
+        <div class="slider">
+          <div class="slide"><img src="assets/images/miami.jpg" /></div>
+          <div class="slide"><img src="assets/images/miami.jpg" /></div>
+          <div class="slide"><img src="assets/images/miami.jpg" /></div>
+        </div>
+
+        <div class="accordion">
+          <div class="header">Muhammad Ali</div>
+          <div class="content">Sample content</div>
+          <div class="header">Usain Bolt</div>
+          <div class="content">Sample content</div>
+          <div class="header">Michael Jordan</div>
+          <div class="content">Sample content</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONNECT -->
+  <div class="container connect" id="connect">
+    <div class="row">
+      <span class="lines col-sm-3"></span>
+      <span class="section-header col-xs-12 col-sm-6">Connect</span>
+      <span class="lines col-sm-3"></span>
+    </div>
+    <div class="container">
+      <div class="connect-list">
+          <ul>
+            <li><img class="img-responsive" src="assets/images/connect/facebook.png"/>
+                <span style="display:block; visibility: hidden">
+                  text
+                </span></li>
+            <li><img  class="img-responsive" src="assets/images/connect/github.png"/>
+              <span style="display:block; visibility: hidden">
+                text
+              </span></li>
+            <li><img  class="img-responsive" src="assets/images/connect/googelplus.png"/>
+              <span style="display:block; visibility: hidden">
+                text
+              </span></li>
+            <li><img  class="img-responsive" src="assets/images/connect/linkedin.png"/>
+              <span style="display:block; visibility: hidden">
+                text
+              </span></li>
+            <li><img  class="img-responsive" src="assets/images/connect/skype.png"/>
+              <span style="display:block; visibility: hidden">
+                text
+              </span></li>
+          </ul>
+        </div>
+        <div class="email">
+          <form class="FlowupLabels" action="MAILTO:moloneypw@gmail.com" method="post" enctype="text/plain">
+            <div class='fl_wrap'>
+              <label class='fl_label' for='rf_name'>Name:</label>
+              <input class='fl_input' type='text' id='rf_name' />
+            </div>
+            <div class='fl_wrap'>
+              <label class='fl_label' for='rf_email'>Email:</label>
+              <input class='fl_input' type='email' id='rf_email' />
+            </div>
+            <div class='fl_wrap'>
+              <label class='fl_label' for='rf_message'>Message:</label>
+              <textarea class='fl_input' type='text' id='rf_message'></textarea>
+            </div>
+            
+              <button  class="btn btn-default rf_submit"
+                 type='submit' value='Send' >Send</button>
+            
+          </form>
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
